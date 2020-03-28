@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChannelActivity">
+
+    <Button
+        android:id="@+id/btnBasicMessageChanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/basic_message_channer" />
+
+    <Button
+        android:id="@+id/btnMethodChanner"
+        android:layout_width="match_parent"
+        android:text="method_channer"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnEventChanner"
+        android:layout_width="match_parent"
+        android:text="event_channer"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

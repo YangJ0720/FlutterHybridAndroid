@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FlutterHybridAndroid</string>
+    <string name="flutter_view">flutter_view</string>
+    <string name="flutter_fragment">flutter_fragment</string>
+    <string name="channer">channer</string>
+    <string name="basic_message_channer">basic_message_channer</string>
+</resources>
